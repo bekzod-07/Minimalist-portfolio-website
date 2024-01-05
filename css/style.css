@@ -19,3 +19,169 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }  
+
+.header {
+    margin-top: 30px;
+}
+
+.header--child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--child--ul {
+    margin-top: 5px;
+    font-size: 14px;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.header--child--ul a {
+    color:#33323D;
+    text-decoration: none;
+}
+
+
+
+.nav {
+    margin-top: 50px;
+}
+
+.nav--child--one--img {
+    width: 1110px;
+    height: 600px;
+}
+
+.nav-child--two {
+    position: absolute;
+    margin-top: -355px;
+    background: white;
+    color: black;
+    width: 445px;
+    height: 350px;
+}
+
+.nav-child--two--h2 {
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.nav-child--two--a {
+    padding-top: 15px;
+    padding-left: 25px;
+    position: absolute;
+    margin-top: 38px;
+    font-size: 14px;
+    width: 150px;
+    height: 48px;
+    color:#FFFFFF;
+    text-decoration: none;
+    background:#203A4C;
+}
+
+.nav-child--two--img {
+    margin-top: 38px;
+    background: #203A4C;
+}
+
+
+.section {
+    margin-top: 100px;
+}
+
+.section--child {
+    display: flex;
+}
+
+.section--child--one--img {
+    width: 540px;
+    height: 600px;
+}
+
+.section--child--two {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.section--child--two--h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section--child--two--9 {
+    margin-top: 40px;
+    width: 270px;
+}
+
+.section--child--two--btn {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    font-size: 12px;
+}
+
+
+.article {
+    margin-top: 110px;
+}
+
+.article--child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article--child--text {
+    font-size: 33px;
+    width: 300px;
+}
+
+.article--child--btn {
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background: #33323D;
+    color: #FFFFFF;
+}
+
+.footer--child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer--child--one {
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer--child--one--img {
+    width: 50px;
+    height: 30px;
+}
+
+.footer--child--one--ul {
+    margin-left: 20px;
+    margin-top: 8px;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.footer--child--one--ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer--child--two--img {
+    margin-top: 20px;
+}
