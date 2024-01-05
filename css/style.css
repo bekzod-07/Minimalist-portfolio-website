@@ -244,13 +244,14 @@ body {
     .section--child--one {
         position: relative;
         overflow: hidden;
-        width: 400px;
+        width: 500px;
         height: 550px;
     }
 
     .section--child--one--img {
         position: absolute;
-        width: 300px;
+        object-position: -110px;
+        width: 400px;
         height: 600px;
     }
 
@@ -260,3 +261,115 @@ body {
     }
     
   }
+
+
+  @media only screen and (max-width: 320px) {
+    .container {
+        max-width: 311px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header--child--ul {
+        display: none;
+    }
+
+    .nav--child--one--img {
+        width: 420px;
+        height: 300px;
+    }
+
+    .nav-child--two {
+        margin-top: 0px;
+    }
+
+    .nav-child--two--h2 {
+        margin-top: -50px;
+        font-size: 40px;
+    }
+    
+    .a {
+        margin-top: 10px;
+    }
+
+    .section {
+        margin-top: 500px;
+    }
+
+    .section--child--one {
+        position: absolute;
+        margin-top: -100px;
+    }
+
+    .section--child--one--img {
+        margin-left: 120px;
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        object-position: 0px;
+        height: 400px;
+    }
+    
+    .section--child--two {
+        margin-top: 350px;
+        margin-left: 150px;
+    }
+
+    .section--child--two--9 {
+        width: 400px;
+    }
+
+    .article--child {
+        display: block;
+    }
+
+    .article--child--text{
+        margin-left: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .article--child--btn {
+        margin-left: 120px;
+    }
+
+
+    .footer {
+        width: 499px;
+        height: 330px;
+        background: #33323D;
+        color: #FFFFFF;
+    }
+
+    .footer--child {
+        display: block;
+    }
+
+    .footer--child--one {
+        display: block;
+    }
+
+    .footer--child--one--img {
+        width: 50px;
+        margin-left: 110px;
+        margin-top: 50px;
+    }
+
+    .footer--child--one--ul {
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    .footer--child--one--ul li {
+        margin-top: 20px;
+    }
+
+    .footer--child--two--img {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+
+  }
+
+
